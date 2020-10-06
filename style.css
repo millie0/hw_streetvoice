@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(248, 248, 248);
+}
+a{
+    color: rgb(29, 29, 29);
+}
+
+/* @media(min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+@media(min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+    .nav-lefta{
+        font-size: 0.5rem;
+    }
+}
+@media(min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+} */
+ul, li{
+    list-style: none;
+}
+
+
+.navbar a{
+    color: rgb(90, 90, 90);
+}
+.nav-left{
+    width: 70%;
+    
+}
+.logo img{
+    height: 30px;
+}
+.nav-left a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+    align-self: center;
+    padding: 7.5px 15px;
+    box-sizing: border-box;
+    /* display: block; */
+    /* flex-wrap: nowrap; */
+}
+.nav-left .nav-divider{
+    border-left: 1px solid rgba(95, 95, 95, 0.3);
+    height: 20px;
+}
+.fas{
+    font-size: 30px;
+    color: rgb(133, 133, 133);
+    padding: 7.5px 15px;
+}
+banner img{
+    /* height: 100%; */
+    width: 100%;
+    /* display: block; */
+}
+.c-main{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 650px 450px;
+    gap: 30px;
+    grid-template-areas:
+    "daysong rank"
+    "ad rank";
+}
+
+@media(max-width:900px){
+    .c-main{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 650px 450px;
+        gap: 30px;
+    }
+}
+.item{
+    width: 100%;
+    height: 100%;
+}
+.daysong{
+    grid-area: daysong;
+    box-shadow: 0.5px 0 4px rgb(211, 211, 211);
+    border: none;
+    border-radius: 7px;
+}
+.card-pic{
+    width: 335px;
+    height: 345px;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
+.card-pic img{
+    width: 335px;
+    height: 100%;
+    justify-content: center;
+    /* align-self: center; */
+}
+.ad{
+    grid-area: ad;
+}
+.rank{
+    grid-area: rank;
+}
+
+.card{
+    
+}
+.nav-link{
+    color: rgb(126, 126, 126);
+}
+/* h4{
+    text-align: left;
+} */
+
+.line-left i{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50%;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: rgb(179, 179, 179);
+}
+.btn-outline-secondary{
+    background-color: white;
+    border-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    font-size: 15px;
+    transition: .3s;
+    }
+.btn-primary{
+    background-color: #f9595f;
+    color: white;
+    border-color: #f8343b;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: .3s;
+    }
+ul{
+    padding: 12px 4px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+
+}
+.list-number{
+width: 70px;
+}
+.list-number span{
+    color: rgb(180, 180, 180);
+}
+.fas{
+    padding: 0 0 0 2px;
+}
+.list-name a{
+    font-weight: 500;
+}
+.list-pic1{
+    width: 86px;
+    height: 86px;
+    border-radius: 7%;
+    overflow: hidden;
+}
+.list-pic1 img{
+    width: 86px;
+}
+.list-pic2{
+    width: 46px;
+    height: 46px;
+    border-radius: 7%;
+    overflow: hidden;
+}
+.list-pic2 img{
+    width: 46px;
+}
+.list-btn{
+    color: rgb(180, 180, 180);
+    /* height: 35px; */
+}
+.like-btn{
+    width: 80px;
+    height: 35px;
+    line-height: 30px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.list-btn span{
+    font-size: 23px;
+}
+.play-btn{
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    line-height: 33px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 2px;
+}
